@@ -10,3 +10,6 @@ keymap.set("n", "<C-a>a", "gg<S-v>G")
 -- Change tab
 keymap.set("n", "<Tab>", vim.cmd.bnext)
 keymap.set("n", "<S-Tab>", vim.cmd.bprev)
+
+keymap.set("n", "<leader>qq", vim.cmd.q, { desc = "Quit" })
+keymap.set("n", "<leader>qa", vim.cmd.qa, { desc = "Quit all" })
