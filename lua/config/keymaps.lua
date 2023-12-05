@@ -6,3 +6,7 @@ local keymap = vim.keymap
 
 -- Select all
 keymap.set("n", "<C-a>a", "gg<S-v>G")
+
+-- Change tab
+keymap.set("n", "<Tab>", vim.cmd.bnext)
+keymap.set("n", "<S-Tab>", vim.cmd.bprev)
